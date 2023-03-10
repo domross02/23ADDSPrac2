@@ -2,6 +2,9 @@
 Computer::Computer(){
     name="Computer";
 }
-char Computer::makeMove(){
-    return 'R';
+Move* Computer::makeMove(){
+    Move* move;
+    move = new Move();
+    move->compName();
+    return move;
 }

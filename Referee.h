@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "Computer.h"
 #include "Human.h"
+#include "Game.h"
 class Referee{
     public:
 

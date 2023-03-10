@@ -8,9 +8,9 @@ name=inname;
 Human::Human(){
     name="Human";
 }
-char Human::makeMove(){
-    char move;
-    std::cout<<"Enter move: ";
-    std::cin>>move;
+Move* Human::makeMove(){
+    
+    move = new Move();
+    move->setName();
     return move;
 }

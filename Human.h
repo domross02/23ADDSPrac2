@@ -8,6 +8,6 @@ class Human:public Player{
     public:   
     Human(std::string inname);
     Human();
-    char makeMove();
+    Move * makeMove();
 };
 #endif

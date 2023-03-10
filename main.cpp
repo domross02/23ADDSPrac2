@@ -7,14 +7,14 @@
 using namespace std;
 
 int main(){
-Player * c;
-Player * h;
-c= new Computer;
-h= new Human;
+Player * h1;
+Player * h2;
+h1= new Human("Player1");
+h2= new Human("Player2");
 Referee r;
 
 Player * w;
-w = r.refGame(c,h);
+w = r.refGame(h1,h2);
 
 if(w==nullptr){
     cout<<"It's a tie"<<endl;
